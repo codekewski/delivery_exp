@@ -1,0 +1,19 @@
+{
+  "dataServiceGeneratorVersion": "0.12.3",
+  "appInfo": {
+    "name": "PDE1405 Porsche Delivery Experience Backend",
+    "description": "",
+    "version": "hfmmlz8c",
+    "id": "cl1u3zd8m103896701s6of7nq5x6",
+    "url": "https://app.amplication.com/cl1u3zd8m103896701s6of7nq5x6",
+    "settings": {
+      "dbHost": "localhost",
+      "dbName": "",
+      "dbPassword": "admin",
+      "dbPort": 5432,
+      "dbUser": "admin",
+      "appId": "cl1u3zd8m103896701s6of7nq5x6",
+      "authProvider": "Jwt"
+    }
+  }
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "role": "salesConsultant",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "Dealership",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "Dealership",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Dealership",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "Dealership",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "Dealership",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "Dealership",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Dealership",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "Dealership",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "Dealership",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "Dealership",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Dealership",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "Dealership",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "Dealership",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "Dealership",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Dealership",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "Dealership",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "Dealership",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "Dealership",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Dealership",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "Dealership",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "Blocker",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "Blocker",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Blocker",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "Blocker",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "Blocker",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "Blocker",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "Blocker",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "Blocker",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "Blocker",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "Blocker",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Blocker",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "Blocker",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "salesConsultant",
+    "resource": "Blocker",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "global_admin",
+    "resource": "Blocker",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Blocker",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "dealershipManagement",
+    "resource": "Blocker",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]

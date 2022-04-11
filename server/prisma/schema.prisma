@@ -1,0 +1,47 @@
+datasource postgres {
+  provider = "postgresql"
+  url      = env("POSTGRESQL_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  createdAt DateTime @default(now())
+  firstName String?
+  id        String   @id @default(cuid())
+  lastName  String?
+  password  String
+  roles     String[]
+  updatedAt DateTime @updatedAt
+  username  String   @unique
+}
+
+model Dealership {
+  address   String?
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  name      String?
+  updatedAt DateTime @updatedAt
+}
+
+model Blocker {
+  createdAt         DateTime                     @default(now())
+  blocker_dealershp EnumBlockerBlockerDealershp?
+  deliveryBay       String?
+  id                String                       @id @default(cuid())
+  owner             String?
+  status            EnumBlockerStatus?
+  updatedAt         DateTime                     @updatedAt
+}
+
+enum EnumBlockerBlockerDealershp {
+  complete_block
+  partial_block
+}
+
+enum EnumBlockerStatus {
+  Active
+  Cancelled
+}
